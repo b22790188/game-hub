@@ -32,7 +32,7 @@ export default function({ platforms }: Props) {
 
   return (
     <>
-      <HStack>
+      <HStack marginY={'10px'}>
         {platforms.map(platform => 
           <Icon key={platform.id} as={iconMap[platform.slug]} color="gray.500"/>)
         }

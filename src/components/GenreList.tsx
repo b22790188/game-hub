@@ -8,7 +8,7 @@ export default function GenreList() {
     <>
       <List>
         {data.map((genre) =>
-          <ListItem key={genre.id} marginY='10px'>
+          <ListItem key={genre.id} marginY='15px'>
             <HStack>
               <Image boxSize='32px' borderRadius='8px' src={getCroppedImageUrl(genre.image_background)}></Image>
               <Text fontSize='md'>{genre.name}</Text>

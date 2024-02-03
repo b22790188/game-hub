@@ -12,7 +12,7 @@ interface Props {
 
 export default function GameGrid({ gameQuery }: Props){
   const { data, error, isLoading} = useGame(gameQuery);
-  const skeletons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const skeletons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
   return (
     <>

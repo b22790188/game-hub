@@ -18,7 +18,7 @@ export default function PlatformSelector({ onPlatformSelected, selectedPlatform 
         {selectedPlatform?.name || "Platform" }
       </MenuButton>
       <MenuList>
-        {data.map((platform) => (<MenuItem onClick={() => onPlatformSelected(platform)}key={platform.id}>{platform.name}</MenuItem>))}
+        {data.map((platform) => (<MenuItem onClick={() => onPlatformSelected(platform)} key={platform.id}>{platform.name}</MenuItem>))}
       </MenuList>
     </Menu>
   )

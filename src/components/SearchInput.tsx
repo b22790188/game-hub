@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { Input, InputGroup, InputLeftAddon, InputLeftElement } from "@chakra-ui/react";
-import { BsSearch, BsServer } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
 
 interface Props {
   onSearch: (searchText: string) => void

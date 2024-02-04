@@ -12,8 +12,8 @@ import GameHeading from './components/GameHeading'
 export interface GameQuery {
   genre: Genre | null,
   platform: Platform | null;
-  ordering: string;
-  searchText: string;
+  ordering: string | null;
+  searchText: string | null;
 }
 
 function App() {

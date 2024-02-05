@@ -1,10 +1,5 @@
 import { useRef } from "react";
-import {
-  Input,
-  InputGroup,
-  InputLeftAddon,
-  InputLeftElement,
-} from "@chakra-ui/react";
+import { Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import { BsSearch } from "react-icons/bs";
 
 interface Props {
@@ -24,7 +19,9 @@ export default function SearchInput({ onSearch }: Props) {
         }}
       >
         <InputGroup>
-          <InputLeftElement children={<BsSearch />} />
+          <InputLeftElement>
+            <BsSearch />
+          </InputLeftElement>
           <Input
             ref={ref}
             borderRadius={15}

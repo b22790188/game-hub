@@ -1,7 +1,3 @@
-import { useState, useEffect } from "react";
-import { CanceledError } from "axios";
-import apiClients from "../services/api-clients";
-import useData from "./useData";
 import { genres } from "../data/genres";
 
 export interface Genre {

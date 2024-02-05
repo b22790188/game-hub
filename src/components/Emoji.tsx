@@ -1,4 +1,4 @@
-import { Image, ImageProps, Text } from "@chakra-ui/react";
+import { Image, ImageProps } from "@chakra-ui/react";
 import bullseye from "../assets/bulls-eye.webp";
 import meh from "../assets/meh.webp";
 import thumbsup from "../assets/thumbs-up.webp";

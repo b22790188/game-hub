@@ -9,7 +9,7 @@ import {
 import { MdPhoneIphone } from "react-icons/md";
 import { BsGlobe } from "react-icons/bs";
 import { SiNintendo } from "react-icons/si";
-import { HStack, Icon, Text } from "@chakra-ui/react";
+import { HStack, Icon } from "@chakra-ui/react";
 import { Platform } from "../hooks/useGame";
 import { IconType } from "react-icons";
 
@@ -17,7 +17,7 @@ interface Props {
   platforms: Platform[];
 }
 
-export default function ({ platforms }: Props) {
+export default function PlatformIconList({ platforms }: Props) {
   const iconMap: { [key: string]: IconType } = {
     linux: FaLinux,
     mac: FaApple,

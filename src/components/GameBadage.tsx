@@ -5,7 +5,7 @@ interface Props {
 }
 
 export default function GameBadage({ metatMetric }: Props) {
-  let color = metatMetric > 75 ? "green" : metatMetric > 50 ? "yellow" : "red";
+  const color = metatMetric > 75 ? "green" : metatMetric > 50 ? "yellow" : "red";
 
   return (
     <Badge colorScheme={color} fontSize="15px" borderRadius="4px">
